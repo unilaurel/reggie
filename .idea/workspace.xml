@@ -4,11 +4,116 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9927f479-84b2-4aa7-894c-6f40a4fd663e" name="Changes" comment="" />
+    <list default="true" id="9927f479-84b2-4aa7-894c-6f40a4fd663e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/common/BaseContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/common/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/common/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/common/JacksonObjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/common/MyMetaObjectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller/AddressBookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller/CommonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller/DishController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller/OrderDetailsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller/SetmealController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller/ShoppingCartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/dto/DishDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/dto/SetmealDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/entity/AddressBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/entity/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/entity/DishFlavor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/entity/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/entity/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/entity/Setmeal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/entity/SetmealDish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/entity/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/filter/LoginCheckFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/mapper/AddressBookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/mapper/CatagoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/mapper/DishFlavorMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/mapper/DishMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/mapper/OrderDetailsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/mapper/OrdersMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/mapper/SetmealDishMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/mapper/SetmealMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/mapper/ShoppingCatMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/AddressBookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/DishFlavorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/DishService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/OrderDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/OrdersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/SetmealDishService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/SetmealService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/ShoppingCartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl/AddressBookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl/DishFlavorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl/DishServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl/OrderDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl/OrdersServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl/SetmealDishServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl/SetmealServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl/ShoppingCartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/utils/SMSUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/utils/ValidateCodeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/c15b2f2b-f542-47aa-ac60-9690c63d5a68.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/f936378a-e5fd-4e02-9f38-96e327ed7887.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/demo/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/cartData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6958eac9-ed8d-4a8d-8d0f-4c5907cdec6f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6958eac9-ed8d-4a8d-8d0f-4c5907cdec6f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/ReggieApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/ReggieApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/api/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/api/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/js/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/js/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/category/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/category/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/combo/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/combo/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/login/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/member/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/member/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/api/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/api/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/api/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/api/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/js/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/js/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/page/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/page/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/backend/api/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/api/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/backend/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/backend/js/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/js/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/backend/page/category/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/page/category/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/backend/page/combo/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/page/combo/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/backend/page/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/page/login/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/backend/page/member/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/backend/page/member/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/ReggieApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/reggie/ReggieApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/config/WebMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/reggie/config/WebMvcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/controller/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/reggie/controller/EmployeeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itheima/reggie/entity/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itheima/reggie/entity/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/api/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/api/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/api/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/api/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/js/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/js/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/front/page/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/front/page/login.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -18,28 +123,38 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2UIECOH2KPZPT2zG8S20M7T3B60" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/dreamtank177/Documents/04_mycode/IDEA/reggie_take_out/src/main/java/com/itheima/reggie/common",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "last_opened_file_path": "/Users/dreamtank177/Documents/04_mycode/IDEA/reggie_take_out/src/main/java/com/itheima/reggie/entity",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
+    "settings.editor.selected.configurable": "project.propCompiler",
+    "spring.configuration.checksum": "31ee954601a2ac7573b0782bc2eec0b0"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -50,9 +165,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/itheima/reggie/common" />
       <recent name="$PROJECT_DIR$/src/main/java/com/itheima/reggie/entity" />
+      <recent name="$PROJECT_DIR$/src/main/resources/front" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/itheima/reggie/filter" />
+      <recent name="$PROJECT_DIR$/src/main/resources/front/js" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.itheima.reggie.service.impl" />
+      <recent name="com.itheima.reggie.service" />
+      <recent name="com.itheima.reggie.mapper" />
+      <recent name="com.itheima.reggie.controller" />
     </key>
   </component>
   <component name="RunManager">
@@ -83,11 +206,39 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1692618570242</updated>
-      <workItem from="1692618571467" duration="7515000" />
+      <workItem from="1692618571467" duration="95297000" />
+      <workItem from="1693313737663" duration="268000" />
+      <workItem from="1693314016024" duration="281000" />
+      <workItem from="1693314383351" duration="16751000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl/OrdersServiceImpl.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
